@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    user-select: none;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-color: #FFFFFF;
+    margin: 0px 60px;
+}
+.container {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+.container .section {
+    width: calc(100%/2);
+}
+.container .profile .heading {
+    color: rgba(0, 0, 0, 1);
+    margin-top: -5px;
+    font-size: 40px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+.container .profile .heading .username {
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 10px;
+    color: rgba(0, 0, 0, 0.5)
+}
+.container .profile .socials {
+    display: flex;
+}
+.container .profile .socials a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 30px;
+    height: 30px;
+    color: #FFFFFF;
+    border-radius: 50%;
+    margin: 2.5px;
+}
+.container .profile .description {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.75)
+}
+.container .skills {
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+}
+.container .skills div {
+    color: rgba(0, 0, 0, 0.875);
+    text-align: center;
+    width: 70px;
+    height: 70px;
+}
+.container .skills div i {
+    width: 100%;
+    font-size: 40px;
+}
+.container .skills div span {
+    font-size: 12px;
+}
+.projects .heading {
+    font-weight: 600;
+    font-size: 20px;
+}
+.projects #projects {
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+    margin: 10px 0px
+}
+.projects #projects a {
+    display: block;
+    padding: 12.5px;
+    margin-right: 15px;
+    width: 300px;
+    box-shadow: 0px 0px 2.5px rgba(0, 0, 0, 0.25);
+    border-radius: 7.5px;
+    transition: box-shadow 0.1s;
+    text-decoration: none;
+}
+.projects #projects a:hover {
+    box-shadow: 0px 0px 2.5px rgba(0, 0, 0, 0.5);
+}
+.projects #projects a .title {
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 1);
+}
+.projects #projects a .description {
+    color: rgba(0, 0, 0, 0.75);
+    font-size: 14px;
+}
